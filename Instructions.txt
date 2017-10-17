@@ -1,0 +1,32 @@
+Instructions on how to execute the scripts:
+
+step 1: Install Protractor by using this command below:
+  
+   npm install -g protractor
+   
+step 2: Install protractor-jasmine2-html-reporter by using this command below:
+	
+	npm install protractor-jasmine2-html-reporter --save-dev
+
+step 3: Clone or Download this repository https://github.com/gbobille/veseo
+
+step 4: Once done cloning or downloading the repository, Go to that directory.
+
+step 5: Start Selenium server by using this command below: 
+
+	webdriver-manager update
+	
+	webdriver-manager start
+	
+step 6: Open a new terminal or command line and Go to the script directory and execute protractor by using this command below:
+
+	protractor veseoConf.js
+	
+	
+	
+	
+	
+Let me know if you encounter some error... :)
+
+
+Thanks!!!
