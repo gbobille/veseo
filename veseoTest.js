@@ -81,7 +81,7 @@ describe('Circlepix Home Page Login', function() {
 	var cardTitle = element(by.css('.card-title'));
 	browser.wait(EC.presenceOf(cardTitle), 5000);
 	var recentJob = element.all(by.css('.job-title'));
-	expect(recentJob.get(0).getText()).toBe('parlor')
+	expect(recentJob.get(0).getText()).toBe(JobTitle)
 	var slot = element.all(by.css('.card-title'));
 	expect(slot.get(0).getText()).toBe('30')
 	//var info = element(by.css(".col-md-6"));
